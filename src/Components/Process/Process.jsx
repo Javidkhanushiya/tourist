@@ -22,7 +22,7 @@ const Process = () => {
                         <h6 className="section-title bg-white text-center text-web-color px-3">Process</h6>
                         <h1 className="mb-5" data-aos="fade-up" data-aos-delay="100">3 Easy Steps</h1>
                     </div>
-                    <div className="row gy-5 gx-4 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                    <div className="row gy-5 gx-4 justify-content-center" data-aos-delay="200">
                         {isMobile ? (
                             <Swiper
                                 spaceBetween={30}
@@ -38,7 +38,7 @@ const Process = () => {
                             >
                                 {Processdeta.map((item, i) => (
                                     <SwiperSlide key={i}>
-                                        <div className="col-lg-4 col-sm-6 text-center pt-5 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div className="col-lg-4 col-sm-6 text-center pt-5 " data-wow-delay="0.1s">
                                             <div className="position-relative border border-primary pt-5 pb-4 px-4">
                                                 <div className="d-inline-flex align-items-center justify-content-center bg-web-color rounded-circle position-absolute top-0 start-50 translate-middle shadow" style={{ width: "100px", height: "100px" }}>
                                                     <div dangerouslySetInnerHTML={{ __html: item.icon }} />

@@ -24,7 +24,7 @@ const Services = () => {
                         <h6 className="section-title bg-white text-center text-web-color px-3">Services</h6>
                         <h1 className="mb-5" data-aos-delay="50" data-aos="zoom-in-up">Our Services</h1>
                     </div>
-                    <div className="row g-4" data-aos="fade-up">
+                    <div className="row g-4" >
                         {isMobile ? (
                             <Swiper
                             spaceBetween={30}

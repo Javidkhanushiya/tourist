@@ -24,7 +24,7 @@ const Team = () => {
                         <h6 className="section-title bg-white text-center text-web-color px-3">Travel Guide</h6>
                         <h1 className="mb-5" data-aos="fade-up" data-aos-delay="100">Meet Our Guide</h1>
                     </div>
-                    <div className="row g-4" data-aos="fade-up" data-aos-delay="200">
+                    <div className="row g-4"  data-aos-delay="200">
                         {isMobile ? (
                             <Swiper
                                 spaceBetween={30}
