@@ -33,7 +33,7 @@ const Team = () => {
                                 loop={true}
                                 speed={1500}
                                 autoplay={{
-                                    delay: 3000,
+                                    delay: 1000,
                                     disableOnInteraction: false,
                                 }}
                             >
