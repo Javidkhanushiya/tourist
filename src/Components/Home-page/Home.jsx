@@ -14,7 +14,8 @@ import Testimonial from '../Testimonial/Testimonial';
 const Home = () => {
   return (
     <>
-      <Navbar />
+     
+      <Navbar/>
       <Hero />
       <About/>
       <Services/>
